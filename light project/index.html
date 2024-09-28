@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burger and Chicken</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawosem.com/c4254e24a8.js"></script>
+
+</head>
+<body>
+  <div class="new">
+    <header>
+      <nav>
+        <h1><img src="./light_logo-removebg-preview.png" alt="LOGO">LIGHT Burger & Chicken</h1>
+        <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#menu-section">Menu</a></li>
+          <li><a href="#delivery">delivery</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <h1><span class="h1">Burger</span><span class="span"> and</span> Chicken</h1>
+        <p>Enjoy the finest of chicken or beef, grilled to perfection and topped with the freshest ingredients. Taste the difference in every bite.</p>
+        <a href="#menu-section" class="cta-button"><span class="sp-1"></span>See our menu</a>
+      </div>
+      <div class="hero-image">
+       
+      </div>
+    </section>
+  </div>
+
+
+  <script>
+    function toggleMenu() {
+      var navLinks = document.querySelector('header nav ul');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+
+    <div class="cover">
+    <section class="promo">
+      
+        <img src="./nigga slogan down.png" alt="" >
+        <div class="content">
+          <h2>At LIGHT, where great food and service shine</h2>
+          <p>  Experience the perfect blend of mouthwatering flavors and top-notch service. At LIGHT Burger & Chicken , every bite  is a step  towards culinary delight.</p>
+      </div>
+    </section>
+    <section class="menu-section" id="menu-section">
+      <h2>Menu</h2>
+      <div class="menu-buttons">
+          <button class="menu-btn" data-category="burgers"><span></span>Burgers</button><div class="divider"></div>
+          <button class="menu-btn" data-category="chicken">Chicken</button><div class="divider"></div>
+          <button class="menu-btn" data-category="pizza">Pizza</button><div class="divider"></div>
+          <button class="menu-btn" data-category="Wraps">Wraps</button><div class="divider"></div>
+          <button class="menu-btn" data-category="smoothies">smoothies</button><div class="divider"></div>
+      </div>
+
+      <div class="menu-content">
+       
+          
+        
+          <div class="menu-item" data-category="burgers">
+              <h3>Cheese burger</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100">
+              <p> Beef patty with melted cheese, lettuce, and tomato.</p>
+              <span>215 Birr</span>
+          </div>
+          <div class="menu-item" data-category="burgers">
+              <h3>Classic burger</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100">
+              <p>Traditional beef burger with lettuce, tomato, and pickles.</p>
+              <span>250 Birr</span>
+          </div>
+          <div class="menu-item" data-category="burgers">
+              <h3>light burger</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100">
+              <p>Light and juicy beef patty with crisp, fresh toppings</p>
+              <span>235 Birr</span>
+          </div>
+          <div class="menu-item" data-category="burgers">
+              <h3> Biggy Max Burger</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+              <p>Extra-large beef patty with multiple layers of toppings</p>
+              <span>285 Birr</span>
+          </div>
+          <div class="menu-item" data-category="burgers">
+              <h3>King david tower</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+              <p>Triple-layered beef burger with premium ingredients.</p>
+              <span>322 Birr</span>
+          </div>
+          <div class="menu-item" data-category="burgers">
+              <h3>Beef burger</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+              <p>Juicy beef patty with a choice of fresh toppings.</p>
+              <span>185 Birr</span>
+          </div>
+          <div class="menu-item" data-category="chicken">
+              <h3>Drum stick</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+              <p>Golden fried chicken served with a side of fries.</p>
+              <span>250 Birr</span>
+          </div>
+          <div class="menu-item" data-category="chicken">
+              <h3>Light crusty chicken sandwich</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+              <p> Crispy chicken in a crunchy sandwich.</p>
+              <span>300 Birr</span>
+          </div>
+          <div class="menu-item" data-category="chicken">
+              <h3>Grilled chicken Breast sandwich</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+              <p> Tender grilled chicken in a soft, flavorful sandwich.</p>
+              <span>300 Birr</span>
+          </div>
+          <div class="menu-item" data-category="chicken">
+              <h3>Chicken Nuggets</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+              <p>Crispy, bite-sized chicken nuggets.</p>
+              <span>250 Birr</span>
+          </div>
+          <div class="menu-item" data-category="chicken">
+              <h3>Wings & frise</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+              <p>Savory chicken wings served with crispy fries.</p>
+              <span>250 Birr</span>
+          </div>
+          
+          
+          <div class="menu-item" data-category="pizza">
+              <h3>Queen magratia</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+              <p>Classic pizza with a blend of savory toppings.</p>
+              <span>250 Birr</span>
+          </div>
+          <div class="menu-item" data-category="pizza">
+              <h3>Beef lover pizza</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+              <p>  Pizza topped with generous slices of beef.</p>
+              <span>270 Birr</span>
+          </div>
+          
+          <div class="menu-item" data-category="pizza">
+              <h3>Chicken lover pizza</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+              <p> Pizza with a mix of chicken and savory toppings.</p>
+              <span>280 Birr</span>
+          </div>
+          <div class="menu-item" data-category="pizza">
+              <h3>Pizza Hawaiian</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+              <p>Pizza with ham and sweet pineapple.</p>
+              <span>245 Birr</span>
+          </div>
+          <div class="menu-item" data-category="pizza">
+              <h3>Tuna Pizza with cheese</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+              <p>Tuna pizza topped with melted cheese</p>
+              <span>290 Birr</span>
+          </div>
+          <div class="menu-item" data-category="pizza">
+              <h3>Tuna pizza fasting</h3>
+              <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+              <p>Light tuna pizza for fasting days</p>
+              <span>250 Birr</span>
+          </div>
+    
+          
+          <div class="menu-item" data-category="Wraps">
+            <h3>Chicken Wrap</h3>
+            <img src="./light_logo-removebg-preview.png" width="100" height="100"  >
+            <p>Chicken wrap with crisp vegetables and flavor.</p>
+            <span>190 Birr</span>
+          </div>
+          <div class="menu-item" data-category="Wraps">
+            <h3>beef Wrap</h3>
+            <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+            <p>Beef wrapped with fresh veggies and savory sauce.</p>
+            <span>160 Birr</span>
+          </div>
+          <div class="menu-item" data-category="Wraps">
+            <h3>vegetable Wrap</h3>
+            <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+            <p>Wrap filled with a mix of fresh vegetables.</p>
+            <span>90 Birr</span>
+          </div>
+          <div class="menu-item" data-category="smoothies">
+            <h3>The farmer</h3>
+            <img src="./light_logo-removebg-preview.png"width="100" height="100"  >
+            <p> Smoothie with a blend of fresh farm fruits.</p>
+            <span>105 Birr</span>
+          </div>
+          <div class="menu-item" data-category="smoothies">
+            <h3>Sunshine</h3>
+            <img src="./light_logo-removebg-preview.png" width="100" height="100" >
+            <p> Citrus smoothie with bright, refreshing flavors.</p>
+            <span>120 Birr</span>
+          </div>
+          <div class="menu-item" data-category="smoothies">
+            <h3>My Flex</h3>
+            <img src="./light_logo-removebg-preview.png"width="100" height="100"  >
+            <p>Energizing smoothie with fruits and greens.</p>
+            <span>110 Birr</span>
+            
+          </div>
+          <div class="menu-item" data-category="smoothies">
+            <h3>My Light man</h3>
+            <img src="./light_logo-removebg-preview.png"width="100" height="100"  >
+            <p>Light, fruity smoothie with a clean taste.</p>
+            <span>120 Birr</span>
+
+          </div>
+          <!-- Add more items similarly -->
+      </div>
+  </section>
+
+  <script src="script.js"></script>
+
+  <section class="delivery" id="delivery">
+    <div class="delivery-content">
+        <div>
+          <p class="call">Call Now & Enjoy your meal at  <span class="num">0930505299</span></p>
+            <h2 class="d-h2"> Delivery for Only 30 Birr</h2>
+            <p class="d-p">
+              <span class="word-1">Fast Delivery</span>
+              <span class="word-2">ONLY 30 Birr</span>
+            </p>
+        </div>
+        <img src="./ddd1-.png" alt="">
+    </div>
+    
+  </section>
+
+  <footer id="footer">
+    <div class="row">
+      <div class="col">
+        <img src="./light_logo-removebg-preview.png" class="col-img" alt="Light Burger and Chicken Logo">
+        <p>LiGHT Burger & Chicken is a popular food spot that offers a delicious menu featuring burgers, chicken, and tasty juices. We have recently introduced a kids menu, making it family-friendly. Located in a beautiful setting, we are known for our quality food and inviting atmosphere.</p>
+      </div>
+      <div class="col">
+        <h3>Our Location <div class="underline"><span></span></div></h3>
+        <p>On The Road To Silasse, Hawassa</p>
+        <p>Right at Dawit Zewdu Building <span class="no-w">(Dawit Light Building)</span></p>
+        <p class="id-f"><span class="id-e">Phone: 0930505299 </span></p>
+      </div>
+      <div class="col">
+        <h3>Links <div class="underline"><span></span></div></h3>
+        <ul>
+          <li><a class="l-k" href="#hero">Home</a></li>
+          <li><a class="l-k" href="#delivery">Delivery</a></li>
+          <li><a class="l-k" href="#menu">Menu</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Contact Us At<div class="underline"><span></span></div></h3>
+        <div class="social-media">
+          <a href="https://www.instagram.com/light_burgerhawassa/"><p><img src="./i-g.png" alt="Instagram"> Instagram</p></a>
+          <a href="https://www.facebook.com/lightburgernchicken/"><p><img src="./f-b.png" alt="Facebook"> Facebook</p></a>
+          <a href="https://tgstat.com/channel/@lightburgernchicken"><p><img src="./t-g.png" alt="Telegram"> Telegram</p></a>
+          <a href="https://www.tiktok.com/@lightburgernchicken"><p><img src="./tt.png" alt="TikTok"> TikTok</p></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+</div>
+</body>
+</html>
